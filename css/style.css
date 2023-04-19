@@ -94,12 +94,12 @@ BONUS - #161616
   
   .about-text h1{
       font-size: 5rem;
-      color: #c6162b;
-  }
-  
-  .about-text h2{
+      color: #2199EA;
+    }
+    
+    .about-text h2{
+      color: #0F5F96;
       font-size: 3rem;
-      color: #1e317e;
       font-weight: 400;
   }
   
