@@ -7,8 +7,10 @@
 #0F5F96
 #2A2A2A
 
-BONUS - #161616  #00abf0
+BONUS - #161616  #00abf0  #142352;
 */
+
+/* FULLPAGE */
 
 * {
     margin: 0;
@@ -19,9 +21,13 @@ BONUS - #161616  #00abf0
 
   body {
 	background-color: #161616;
+	/* background-color: #FFFFFF; */
 	color: #FFFFFF;
 
   }
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+  /* NAVBAR */
 
   .header {
 	position: fixed;
@@ -62,9 +68,12 @@ BONUS - #161616  #00abf0
   .navbar a.active {
 	color: #0F5F96;
   }
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+  /* HOMEPAGE */
 
   .home {
 	height: 100vh;
+	/* background: url('../img/pastor.jpg') no-repeat; */
 	display: flex;
 	align-items: center;
 	padding: 0 10%;
@@ -93,9 +102,11 @@ BONUS - #161616  #00abf0
 	font-size: 16px;
 	margin: 20px 0 40px; 
 	/* font-weight: 700; */
-
 	/* color:  #0F5F96; */
+
   }
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+  /* BUTTONS */
 
  .home-text .btn-box {
 	display: flex;
@@ -104,6 +115,7 @@ BONUS - #161616  #00abf0
 	height: 50px;
 	background: transparent;
  }
+
 
 .btn-box  a {
 	position: relative;
@@ -115,7 +127,7 @@ BONUS - #161616  #00abf0
 	height: 100%;
 
 	background-color:#00abf0 ;
-	border: 2 px solid #00abf0;
+	border: 2.5px solid #00abf0;
 	border-radius: 8px;
 	font-size: 19px;
 	color: #161616;
@@ -124,22 +136,44 @@ BONUS - #161616  #00abf0
 	font-weight: 200;
 	letter-spacing: 1px;
 	z-index: 1;
+	overflow: hidden;
+
+	transition: .5s;
 }
-  .btn-box a:nth-child(2) {
+
+  .btn-box  a:hover{
+	color: #00abf0;
+  }
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+/* ALTERAR COR ESTÁTICA DOS BOTOES */
+
+  .btn-box a:nth-child() {
 	background: transparent;
 	color: #00abf0;
-
-
   }
+
+  .btn-box a:nth-child(0):hover {
+	color: #161616;
+  }
+
+  .btn-box a:nth-child(0)::before {
+	background: #00abf0;
+	
+  }
+/* ---------------------------------------------------------------------------------------------------------------------------- */
 
   .btn-box a::before{
 	content: '';
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 0;
 	height: 100%;
-	background: red;
+
+	background: #161616;
+	/* background:  #142352; */
+	/* background:  #1b789c; */
+
 	z-index: -1;
 	transition: .5s;
   }
@@ -147,4 +181,12 @@ BONUS - #161616  #00abf0
   .btn-box a:hover::before {
 	width: 100%;
   }
+
+  .social{
+	position: absolute;
+	bottom: 40px;
+	width: 170px;
+	background: red;
+  }
+
   
