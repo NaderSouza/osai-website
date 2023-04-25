@@ -23,6 +23,7 @@ BONUS - #161616  #00abf0  #142352;
 	background-color: #161616;
 	/* background-color: #FFFFFF; */
 	color: #FFFFFF;
+	
 
   }
 
@@ -73,10 +74,27 @@ BONUS - #161616  #00abf0  #142352;
 
   .home {
 	height: 100vh;
-	/* background: url('../img/pastor.jpg') no-repeat; */
+	
+	/* background: url('../img/osai-banner-black-.png') no-repeat; */
+	background-size: cover;
+	background-position: center;
 	display: flex;
 	align-items: center;
 	padding: 0 10%;
+
+
+  }
+
+  .back-image{
+	height: 100vh;
+	background: url('../img/osai-banner-black-.png') no-repeat;
+
+	/* Add the blur effect */
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+
+	background-size: cover;
+	background-position: center;
   }
 
   .home-text {
