@@ -127,6 +127,20 @@ BONUS - #161616  #00abf0  #142352;
 
   /* ---------------------------------------------------------------------------------------------------------------------------- */
 
+.sobre-nos{
+	height: 100%;
+	width: 200%;
+	
+	/* background: url('../img/osai-logo-heart-vazio.png') no-repeat; */
+	/* background-size: cover; */
+	/* background-position: center; */
+	/* display: flex; */
+	align-items: center;
+	/* padding: 0 10%; */
+	display: flex;
+
+}
+
   .back-image{
 	height: 100vh;
 	background: url('../img/osai-banner-black-.png') no-repeat;
