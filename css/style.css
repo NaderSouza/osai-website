@@ -46,7 +46,7 @@ BONUS - #161616  #00abf0  #142352;
 	z-index: 100;
   }
 
-  .logo {
+  .logo img {
 	font-size: 30px;
 	color: #ededed;
 	text-decoration: none;
@@ -94,8 +94,13 @@ BONUS - #161616  #00abf0  #142352;
   }
 
   .img-logo{
-	width: 50%;
-	height: 50%;
+	width: auto;
+	max-width: 50%;
+
+	height: auto;
+	max-height: 50%;
+
+	/* margin-left: 200px; */
   }
 
   .back-image{
