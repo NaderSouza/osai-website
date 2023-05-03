@@ -127,23 +127,36 @@ BONUS - #161616  #00abf0  #142352;
 
   /* ---------------------------------------------------------------------------------------------------------------------------- */
 
-.sobre-nos{
+.sobre-nos {
 	height: 100%;
-	width: 200%;
+	width: 100%;
 	
 	/* background: url('../img/osai-logo-heart-vazio.png') no-repeat; */
 	/* background-size: cover; */
 	/* background-position: center; */
 	/* display: flex; */
-	align-items: center;
+	/* align-items: center; */
 	/* padding: 0 10%; */
-	display: flex;
+	/* display: flex; */
 
 }
+.sobre-nos-texto {
+	height: 100%;
+	width: 100%;
+	
+	/* background: url('../img/osai-logo-heart-vazio.png') no-repeat; */
+	/* background-size: cover; */
+	/* background-position: center; */
+	/* display: flex; */
+	/* align-items: center; */
+	/* padding: 0 10%; */
+	/* display: flex; */
 
+}
   .back-image{
-	height: 100vh;
-	background: url('../img/osai-banner-black-.png') no-repeat;
+	height: 100%;
+	width: 100%;
+	background-image: url('../img/osai-banner-black-.png') ;
 
 	/* Add the blur effect */
 	filter: blur(8px);
